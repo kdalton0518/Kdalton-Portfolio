@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://dev-of-future.vercel.app/sitemap.xml

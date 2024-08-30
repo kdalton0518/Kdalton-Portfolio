@@ -1,0 +1,128 @@
+{
+  "theme_color": "#000",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Dalton Kimmerly",
+  "short_name": "Dalton Kimmerly",
+  "description": "I am currently perusing my Bachelor Degree in Computer Science. I can code in Python, C, C++, etc. I also work on React & Next.js. This is my portfolio which you can install as Progressive Web app.",
+  "icons": [
+    {
+      "src": "icons/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/x-icon",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/home.png",
+      "sizes": "411x821",
+      "type": "image/gif"
+    },
+    {
+      "src": "screenshots/blogs.png",
+      "sizes": "411x821",
+      "type": "image/gif"
+    },
+    {
+      "src": "screenshots/projects.png",
+      "sizes": "411x821",
+      "type": "image/gif"
+    },
+    {
+      "src": "screenshots/stats.png",
+      "sizes": "411x821",
+      "type": "image/gif"
+    },
+    {
+      "src": "screenshots/utilities.png",
+      "sizes": "411x821",
+      "type": "image/gif"
+    },
+    {
+      "src": "screenshots/contact.png",
+      "sizes": "411x821",
+      "type": "image/gif"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Blogs",
+      "url": "/blogs",
+      "icons": [
+        {
+          "src": "shortcuts/blog.png",
+          "sizes": "202x202",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "About me",
+      "url": "/about",
+      "icons": [
+        {
+          "src": "shortcuts/about.png",
+          "sizes": "202x202",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    },
+    {
+      "name": "Newsletter",
+      "url": "/newsletter",
+      "icons": [
+        {
+          "src": "shortcuts/newsletter.png",
+          "sizes": "202x202",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ]
+    }
+  ]
+}
