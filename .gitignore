@@ -41,6 +41,7 @@ yarn-error.log*
 /supabase_data
 
 # rss
+/public
 /public/rss
 /public/feed.xml
 public/sitemap.xml
