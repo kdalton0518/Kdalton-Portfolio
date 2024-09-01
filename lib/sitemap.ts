@@ -29,7 +29,7 @@ export default async function generate() {
           .map((route) => {
             return `
               <url>
-                  <loc>${`https://dev-of-future${route}`}</loc>
+                  <loc>${`https://kdalton0518${route}`}</loc>
               </url>
             `;
           })

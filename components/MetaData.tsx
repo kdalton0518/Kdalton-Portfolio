@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import { NextSeo } from "next-seo";
 import useWindowLocation from "@hooks/useWindowLocation";
 
@@ -65,11 +64,11 @@ export default function MetaData({
           firstName: "Dalton",
           lastName: "Kimmerly",
           gender: "Male",
-          username: "dev-of-future",
+          username: "kdalton0518",
         },
         article: {
           tags: keywords?.split(","),
-          authors: ["https://linkedin.com/in/dof"],
+          authors: [process.env.LINKEDIN_URL || ''],
         },
         images: [
           {
@@ -80,7 +79,7 @@ export default function MetaData({
             type: "image/jpeg",
           },
         ],
-        siteName: "dev-of-future.vercel.app",
+        siteName: "kdalton.vercel.app",
       }}
     />
   );

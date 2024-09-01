@@ -72,16 +72,8 @@
       "destination": "/"
     },
     {
-      "source": "/rss",
-      "destination": "/feed.xml"
-    },
-    {
-      "source": "/sitemap",
-      "destination": "/sitemap.xml"
-    },
-    {
       "source": "/cv",
-      "destination": "https://read.cv/dof"
+      "destination": "https://read.cv/kdalton"
     }
   ]
 }

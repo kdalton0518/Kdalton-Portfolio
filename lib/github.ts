@@ -24,7 +24,7 @@ export async function fetchGithub(): Promise<IGitHubProfileResponse> {
 
   try {
     const response = await fetch(
-      "https://api.github.com/users/dev-of-future",
+      "https://api.github.com/users/kdalton0518",
       requestOptions
     );
     if (!response.ok) {
@@ -43,7 +43,7 @@ export async function getGithubStarsAndForks() {
   try {
     // Fetch user's repositories from the GitHub API
     const res = await fetch(
-      "https://api.github.com/users/dev-of-future/repos?per_page=100",
+      "https://api.github.com/users/kdalton0518/repos?per_page=100",
       { headers }
     );
     const userRepos: IGitHubRepositoriesAPIResponse[] = await res.json();
@@ -100,7 +100,7 @@ export async function getGithubContribution() {
               }
             `,
     variables: {
-      LOGIN: "dev-of-future",
+      LOGIN: "kdalton0518",
       FROM: from,
       TO: to,
     },

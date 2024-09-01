@@ -8,7 +8,7 @@ export default function CreateAnIssue() {
         Something went wrong. I know you don't know what's the problem. So Let
         me know by{" "}
         <Link
-          href="https://github.com/dev-of-future/DOF-portfolio/issues/new"
+          href="https://github.com/kdalton0518/kdalton-portfolio/issues/new"
           target="_blank"
           rel="noopener noreferrer"
           className="font-bold underline hover:text-blue-500 "

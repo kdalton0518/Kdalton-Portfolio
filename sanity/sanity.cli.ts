@@ -1,8 +1,9 @@
+require('dotenv').config()
 import {defineCliConfig} from '@sanity/cli'
 
 export default defineCliConfig({
   api: {
-    projectId: 'ik0jnmlj',
-    dataset: 'portfolio-db',
+    projectId: process.env.SANITY_PROJECT_ID,
+    dataset: process.env.SANITY_DB_NAME,
   },
 })

@@ -1,9 +1,9 @@
 <div align="center">
 
-![Github stars](https://img.shields.io/github/stars/dev-of-future/DOF-portfolio?style=flat-square)
-![Github Forks](https://img.shields.io/github/forks/dev-of-future/DOF-portfolio?style=flat-square)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dev-of-future/DOF-portfolio?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/dev-of-future/DOF-portfolio?style=flat-square)
+![Github stars](https://img.shields.io/github/stars/kdalton0518/kdalton-portfolio?style=flat-square)
+![Github Forks](https://img.shields.io/github/forks/kdalton0518/kdalton-portfolio?style=flat-square)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/kdalton0518/kdalton-portfolio?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/kdalton0518/kdalton-portfolio?style=flat-square)
 
 </div>
 
@@ -28,13 +28,13 @@
 Clone the project:
 
 ```bash
-git clone https://github.com/dev-of-future/DOF-portfolio.git
+git clone https://github.com/kdalton018/kdalton-portfolio.git
 ```
 
 Go to the project directory:
 
 ```bash
-cd DOF-portfolio
+cd kdalton-portfolio
 ```
 
 Install dependencies

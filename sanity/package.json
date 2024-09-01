@@ -1,5 +1,5 @@
 {
-  "name": "DOF-portfolio",
+  "name": "sanity-studio",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
@@ -17,7 +17,6 @@
   "dependencies": {
     "@dnd-kit/sortable": "^7.0.2",
     "@sanity/vision": "^3.12.2",
-    "DOF-portfolio": "file:",
     "dotenv": "^16.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

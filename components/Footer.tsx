@@ -32,6 +32,13 @@ export default function Footer({
         <section className="grid grid-cols-3 gap-24 self-center">
           <div className="flex flex-col gap-8 capitalize">
             {navigationRoutes.slice(0, 4).map((text, index) => {
+              if (text.toLowerCase() === 'home') {
+                return (
+                  <Link key={index} href="/" className="hover:text-black dark:hover:text-white w-fit">
+                    {text}
+                  </Link>
+                );
+              }
               return <FooterLink key={index} route={text} text={text} />;
             })}
           </div>

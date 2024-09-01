@@ -4,7 +4,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 // Function to check if the host is valid
 const isValidHost = (host: string) => {
   if (process.env.NODE_ENV === "production")
-    return host.toLowerCase() === "dev-of-future";
+    return host.toLowerCase() === "kdalton0518";
   return true;
 };
 

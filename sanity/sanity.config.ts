@@ -7,9 +7,9 @@ import {visionTool} from '@sanity/vision'
 
 export default defineConfig({
   name: 'default',
-  title: 'dev-of-future-sanity',
+  title: 'kdalton-sanity',
 
-  projectId: 'ik0jnmlj',
+  projectId: '70ep9igb',
   dataset: 'portfolio-db',
 
   plugins: [deskTool(), visionTool()],

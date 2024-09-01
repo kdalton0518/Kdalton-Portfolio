@@ -89,7 +89,7 @@ export default function Stats() {
             style={{
               maxWidth: "100% !important",
             }}
-            username="dev-of-future"
+            username="kdalton0518"
             colorScheme={isDarkMode ? "dark" : "light"}
           />
         </div>
