@@ -56,7 +56,7 @@ export default function Home() {
                 variants={opacityVariant}
                 className=" text-[#474747] dark:text-gray-300 font-medium text-sm md:text-base text-center padding-4"
               >
-              Turning Dreams into Reality, just like Steve Jobs says "Stay Hungry, Stay Foolish" This is our motto
+              Turning Dreams into Reality, just like Steve Jobs says "Stay Hungry, Stay Foolish" This is my motto
               </motion.p>
             </div>
 
