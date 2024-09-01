@@ -6,7 +6,7 @@ const socialMedia: SocialPlatform[] = [
   {
     title: "LinkedIn",
     Icon: BsLinkedin,
-    url: process.env.LINKEDIN_URL || "",
+    url: "https://www.linkedin.com/in/dalton-kimmerly-41661531b",
   },
   {
     title: "Github",
