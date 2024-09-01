@@ -97,7 +97,8 @@ export default function Footer({
           className="flex items-center justify-center gap-2 mt-5 text-black dark:text-white"
         >
           <span>Powered by</span>
-
+          <span className="font-semibold hover:underline">kdalton0518</span>
+          <span>using</span>
           <Link
             target="_blank"
             aria-label="Next.js"
