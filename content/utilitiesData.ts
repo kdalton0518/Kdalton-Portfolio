@@ -19,7 +19,6 @@ import {
   SiPostman,
 } from "react-icons/si";
 import {
-  BsFillPaletteFill,
   BsFillTerminalFill,
   BsWindows,
   BsGithub,
