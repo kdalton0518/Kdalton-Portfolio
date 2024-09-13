@@ -23,6 +23,7 @@ import {
   BsFillTerminalFill,
   BsWindows,
   BsGithub,
+  BsUbuntu,
 } from "react-icons/bs";
 import { FaGitAlt, FaSearch } from "react-icons/fa";
 import SVG from "@components/SVG";
@@ -38,6 +39,18 @@ const utilities: Utilities = {
       title: "System",
       data: [
         {
+          name: "Windows 11",
+          description: "Operating System",
+          Icon: BsWindows,
+          link: "https://www.microsoft.com/software-download/windows11",
+        },
+        {
+          name: "Ubuntu 24",
+          description: "Operating System",
+          Icon: BsUbuntu,
+          link: "https://www.microsoft.com/software-download/windows11",
+        },
+        {
           name: "VSCode",
           description: "Primary Code editor",
           Icon: SiVisualstudiocode,
@@ -50,22 +63,10 @@ const utilities: Utilities = {
           link: "https://www.techspot.com/downloads/5546-sublime-text.html",
         },
         {
-          name: "Andromeda",
-          description: "VS Code theme",
-          Icon: BsFillPaletteFill,
-          link: "https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda",
-        },
-        {
           name: "Oh-my-zsh",
           description: "Terminal Theme",
           Icon: BsFillTerminalFill,
           link: "https://ohmyz.sh/",
-        },
-        {
-          name: "Windows 11",
-          description: "Operating System",
-          Icon: BsWindows,
-          link: "https://www.microsoft.com/software-download/windows11",
         },
         {
           name: "Chrome",
